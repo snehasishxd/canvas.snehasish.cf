@@ -2,10 +2,10 @@ if(window.addEventListener) {
 window.addEventListener('load', function () {
   var canvas, context, canvaso, contexto;
   var tool;
-  var tool_default = 'line';
+  var tool_default = 'pencil';
 
   function init () {
-    canvaso = document.getElementById('imageView');
+    canvaso = document.getElementById('canvas_block');
     if (!canvaso) {
       alert('Error: Canvas not found.');
       return;
