@@ -9,7 +9,6 @@ html::webkit-scrollbar {
 }
 main {
   margin: 2%;
-  padding: 2%;
 }
 .canvas_block {
   background: white;
