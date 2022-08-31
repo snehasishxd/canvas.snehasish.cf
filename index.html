@@ -33,16 +33,18 @@
     </nav>
     <main>
       <div class="alert alert-dark" role="alert">
-        <select id="stroke_style" class="form-select">
-          <option value="pencil" selected>Tool</option>
-          <option value="pencil">Pencil (default)</option>
-          <option value="line">Line</option>
-          <option value="rect">Rectangle</option>
-        </select>
-        <br/>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="stroke_color_span">Color</span>
-          <input type="color" class="form-control" placeholder="Stroke Color" aria-label="Stroke Color" id="stroke_color">
+        <div class="hstack gap-2">
+          <select id="stroke_style" class="form-select">
+            <option value="pencil" selected>Tool</option>
+            <option value="pencil">Pencil (default)</option>
+            <option value="line">Line</option>
+            <option value="rect">Rectangle</option>
+          </select>
+          <br/>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="stroke_color_span">Color</span>
+            <input type="color" class="form-control" placeholder="Stroke Color" aria-label="Stroke Color" id="stroke_color">
+          </div>
         </div>
       </div>
       <br/>
