@@ -11,4 +11,12 @@ main {
   margin: 2%;
   padding: 2%;
 }
+.canvas_block {
+  background: white;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
 
