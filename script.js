@@ -2,7 +2,7 @@ const paintCanvas = document.querySelector( '#canvas_block' );
 const context = paintCanvas.getContext( '2d' );
 context.lineCap = 'round';
 
-const colorPicker = document.querySelector( '#color_selector');
+const colorPicker = document.querySelector( '#stroke_color');
 
 colorPicker.addEventListener( 'change', event => {
     context.strokeStyle = event.target.value; 
